@@ -1,92 +1,115 @@
 # ⏱️ Stopwatch App
 
-A simple and modern **Stopwatch Android Application** built using **Kotlin** and **Jetpack Compose**.
-The app provides an easy-to-use interface for starting, pausing, resetting, and tracking elapsed time.
+A simple, modern, and responsive **Stopwatch Android Application** built using **Kotlin and Jetpack Compose**. The app allows users to measure elapsed time with an intuitive interface and easy-to-use controls.
 
 ## 📱 Features
 
-* ▶️ **Start Stopwatch** – Start counting elapsed time.
-* ⏸️ **Pause Stopwatch** – Pause the stopwatch whenever needed.
-* 🔄 **Reset Stopwatch** – Reset the timer back to zero.
-* ⏱️ **Real-Time Timer** – Displays elapsed time continuously.
-* 🎨 **Modern UI** – Built with Jetpack Compose and Material Design.
-* 📱 **Responsive Layout** – Works across different Android screen sizes.
+- ▶️ **Start Stopwatch** – Start measuring elapsed time.
+- ⏸️ **Pause Stopwatch** – Pause the timer without losing the current elapsed time.
+- 🔄 **Reset Stopwatch** – Reset the timer to zero.
+- ⏱️ **Real-Time Updates** – Display elapsed time continuously while the stopwatch is running.
+- 🎨 **Modern UI** – Clean interface built with Jetpack Compose and Material 3.
+- 📱 **Responsive Design** – Adapt to different Android screen sizes.
+- ⚡ **Smooth Performance** – Efficient timer updates using Kotlin and Compose state management.
 
 ## 🛠️ Technologies Used
 
-* **Kotlin**
-* **Jetpack Compose**
-* **Material 3**
-* **Android Studio**
-* **Kotlin Coroutines**
-* **State Management**
+- **Kotlin** – Main programming language.
+- **Jetpack Compose** – Modern Android UI toolkit.
+- **Material 3** – UI components and styling.
+- **Android Studio** – Development environment.
+- **Kotlin Coroutines** – Asynchronous operations, if used in the implementation.
+- **State Management** – Keeps the displayed timer synchronized with the app state.
 
 ## 🏗️ Project Structure
 
 ```text
 Stopwatch/
 ├── app/
-│   └── src/
-│       └── main/
-│           ├── java/
-│           │   └── com.example.stopwatch/
-│           │       ├── MainActivity.kt
-│           │       └── ...
-│           └── res/
-│               └── ...
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/
+│   │       │   └── com/example/stopwatch/
+│   │       │       ├── MainActivity.kt
+│   │       │       └── ...
+│   │       └── res/
+│   │           └── ...
+│   └── build.gradle.kts
 ├── build.gradle.kts
-└── settings.gradle.kts
+├── settings.gradle.kts
+└── README.md
 ```
 
-## 🚀 How to Run
+*Note: The package name and file structure may vary depending on your project.*
 
-1. Clone the repository:
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Android Studio
+- Android SDK
+- Kotlin support
+- An Android device or emulator
+
+### Installation
+
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/your-username/stopwatch.git
 ```
 
-2. Open the project in **Android Studio**.
+**2. Open the project**
 
-3. Let Gradle sync and download the required dependencies.
+Open the cloned project in Android Studio.
 
-4. Connect an Android device or start an emulator.
+**3. Sync Gradle**
 
-5. Click **Run ▶️** to build and launch the application.
+Allow Android Studio to download dependencies and complete the Gradle sync.
 
-## 🎯 How It Works
+**4. Run the application**
 
-The stopwatch maintains the elapsed time using Kotlin state and continuously updates the UI.
+Connect an Android device or start an emulator, then click **Run ▶️**.
 
-### Start
+## ⚙️ How It Works
+
+The stopwatch tracks elapsed time and updates the user interface using Kotlin state and Jetpack Compose.
+
+### ▶️ Start
 
 Starts the stopwatch and begins tracking elapsed time.
 
-### Pause
+### ⏸️ Pause
 
-Stops the time from increasing while preserving the current elapsed time.
+Pauses the stopwatch while preserving the elapsed time.
 
-### Reset
+### 🔄 Reset
 
-Clears the elapsed time and returns the stopwatch to its initial state.
+Resets the elapsed time to zero and returns the stopwatch to its initial state.
 
 ## 📸 Screenshots
 
-*Add your application screenshots here.*
+Add screenshots of your application to showcase its user interface and functionality.
 
-```text
-screenshots/
-├── stopwatch.png
-├── running.png
-└── paused.png
+Once you add the images to your repository, display them in this section:
+
+```markdown
+
 ```
 
 ## 🔮 Future Improvements
 
-* 🏁 Add **Lap Time** functionality.
-* 💾 Save stopwatch sessions.
-* 🔔 Add notification support.
-* 🌙 Add Dark/Light theme customization.
-* 📊 Add stopwatch history.
-* ⏲️ Add countdown timer functionality.
+- 🏁 **Lap Time** – Record and display individual lap times.
+- 💾 **Session Storage** – Save stopwatch sessions for later reference.
+- 🔔 **Notification Support** – Provide stopwatch status through notifications.
+- 🌙 **Theme Customization** – Support dark and light themes.
+- 📊 **Stopwatch History** – View previously recorded sessions.
+- ⏲️ **Countdown Timer** – Add countdown functionality.
 
+## 🎯 Project Objective
+
+The objective of this project is to build a lightweight and user-friendly Android application while learning Kotlin, Jetpack Compose, state management, and Android UI development.
+
+## 📄 License
+
+This project can be distributed under the MIT License. Add a `LICENSE` file to the repository if you choose to use this license.
